@@ -1,0 +1,88 @@
+.img-section img{
+    height: 100%;
+    width: 100%;
+}
+
+.product-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1-section{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.shoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1-section img{
+    height: 450px;
+    width: 328px;
+    margin: 3px 25px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    padding: 5px 4px;
+    margin: 3px 17px;
+    position: absolute;
+    right: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.row2-section{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.row2-section img{
+    height: 443px;
+    width: 324px;
+    margin: 3px 25px;
+}
+
+.jeans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3-section{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    margin-bottom: 6px;
+}
+
+.row3-section img{
+    height: 495px;
+    width: 324px;
+    margin: 3px 25px;
+}
+
+.dress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

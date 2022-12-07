@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: grey;
+    padding: 6px 4px;
+    font-size: 23px;
+}
+
+.li{
+    margin: 3px 30px;
+    padding: 8px 8px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.li:hover{
+    background-color: black;
+    border-radius: 6px;
+}
+
+ul{
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.home-section{
+    background: url('https://media.istockphoto.com/photos/online-shopping-and-payment-man-using-tablet-with-shopping-cart-icon-picture-id1206800961?k=20&m=1206800961&s=612x612&w=0&h=hcPoUKhWtzHXR3PIAHVgPVZDZaO7R8yZ1wNPkUSsgwU=')no-repeat center/cover;
+    height: 654px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home-section h1,h2{
+    font-size: 70px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 70px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 3px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerul{
+    background-color: rgb(39, 36, 36);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    font-size: 20px;
+    height: 300px;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 50px;
+    padding: 24px;
+    width: 280px;
+}
+
+.footer{
+    height: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+}
+
+footer ul li{
+    line-height: 30px;
+    font-size: 25px;
+}
+
+footer ul li a{
+    color: rgb(15, 180, 235);
+}
+
+.headli{
+    font-size: 30px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+.aboutus-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: aqua;
+    color: black;
+    margin: 4px 0px;
+}
+
+.aboutus-section div{
+    display: flex;
+    flex-direction: row;
+}
+
+.appimg{
+    margin: 60px 30px;
+}
+
+.indoor-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    height: 450px;
+    margin: 4px 0px;
+}
+
+.freetrialbtn{
+    padding: 3px 4px;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: bisque;
+    margin: 6px 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.btn{
+    padding: 3px 4px;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: bisque;
+    margin: 30px 0px;
+    font-size: 20px;
+    color:black;
+}
+
+.outdoor-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-color: aqua;
+    color: black;
+    margin: 4px 0px;
+}
+
+.history-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-color: grey;
+    color: white;
+    margin: 4px 0px;
+}
+
+
